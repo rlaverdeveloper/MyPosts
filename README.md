@@ -11,7 +11,7 @@ The architectural design pattern used in this sample project is MVVM.
 ## API
 This project uses the [JSONPlaceholder API](https://jsonplaceholder.typicode.com/) for all HTTP requests and the networking logic is handled by [NSURLSession and Combine](https://developer.apple.com/documentation/foundation/urlsession/processing_url_session_data_task_results_with_combine).
 
-## Dependencies
+## Third-Party Libraries
 
 - [Lottie](https://github.com/airbnb/lottie-ios)
 
