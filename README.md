@@ -1,6 +1,6 @@
 # MyPosts
 
-This is a sample project of an app that lists all messages and their details from the [JSONPlaceholder API](https://jsonplaceholder.typicode.com/).
+This is a sample project of an app that lists all messages and their details from the [JSONPlaceholder API](https://jsonplaceholder.typicode.com/). The app was built using Xcode 13.3.1 and is compatible with iOS 14.0+.
 
 ## UI
 In order to provide examples of different ways to address the UI in iOS, two different approaches were used. XIB files for the UI related to the ViewControllers (PostsViewController and PostDetailViewController), and a programmatic UI approach for the UI related to the cells (PostCell, PostDetailCell, PostCommentCell).
