@@ -17,6 +17,12 @@
 		784F3D51282A5D9F001F6F0B /* PostDetailCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784F3D50282A5D9F001F6F0B /* PostDetailCellViewModel.swift */; };
 		784F3D53282A661B001F6F0B /* PostComment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784F3D52282A661B001F6F0B /* PostComment.swift */; };
 		784F3D55282A6D94001F6F0B /* PostCommentCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784F3D54282A6D94001F6F0B /* PostCommentCellViewModel.swift */; };
+		7881408B2834452E0055FC02 /* posts_response.json in Resources */ = {isa = PBXBuildFile; fileRef = 7881408A2834452E0055FC02 /* posts_response.json */; };
+		7881408D2834458E0055FC02 /* PostTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7881408C2834458E0055FC02 /* PostTests.swift */; };
+		7881408F2834487A0055FC02 /* UserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7881408E2834487A0055FC02 /* UserTests.swift */; };
+		78814091283449C80055FC02 /* user_response.json in Resources */ = {isa = PBXBuildFile; fileRef = 78814090283449C80055FC02 /* user_response.json */; };
+		7881409328344BA40055FC02 /* PostCommentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7881409228344BA40055FC02 /* PostCommentTests.swift */; };
+		7881409528344C980055FC02 /* post_comments_response.json in Resources */ = {isa = PBXBuildFile; fileRef = 7881409428344C980055FC02 /* post_comments_response.json */; };
 		78E942212828194E00C50B2F /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E942202828194E00C50B2F /* Post.swift */; };
 		78E9422328282CD700C50B2F /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E9422228282CD700C50B2F /* Box.swift */; };
 		78E9422528282D2A00C50B2F /* PostsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E9422428282D2A00C50B2F /* PostsViewModel.swift */; };
@@ -36,7 +42,6 @@
 		78EBC8302826BACD0001F025 /* MyPosts.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 78EBC82E2826BACD0001F025 /* MyPosts.xcdatamodeld */; };
 		78EBC8322826BACF0001F025 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78EBC8312826BACF0001F025 /* Assets.xcassets */; };
 		78EBC8352826BACF0001F025 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78EBC8332826BACF0001F025 /* LaunchScreen.storyboard */; };
-		78EBC8402826BAD00001F025 /* MyPostsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EBC83F2826BAD00001F025 /* MyPostsTests.swift */; };
 		78EBC84A2826BAD00001F025 /* MyPostsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EBC8492826BAD00001F025 /* MyPostsUITests.swift */; };
 		78EBC84C2826BAD00001F025 /* MyPostsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EBC84B2826BAD00001F025 /* MyPostsUITestsLaunchTests.swift */; };
 		78EBC8622826BCA80001F025 /* PostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EBC8602826BCA80001F025 /* PostsViewController.swift */; };
@@ -71,6 +76,12 @@
 		784F3D50282A5D9F001F6F0B /* PostDetailCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailCellViewModel.swift; sourceTree = "<group>"; };
 		784F3D52282A661B001F6F0B /* PostComment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostComment.swift; sourceTree = "<group>"; };
 		784F3D54282A6D94001F6F0B /* PostCommentCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCommentCellViewModel.swift; sourceTree = "<group>"; };
+		7881408A2834452E0055FC02 /* posts_response.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = posts_response.json; sourceTree = "<group>"; };
+		7881408C2834458E0055FC02 /* PostTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTests.swift; sourceTree = "<group>"; };
+		7881408E2834487A0055FC02 /* UserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTests.swift; sourceTree = "<group>"; };
+		78814090283449C80055FC02 /* user_response.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = user_response.json; sourceTree = "<group>"; };
+		7881409228344BA40055FC02 /* PostCommentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCommentTests.swift; sourceTree = "<group>"; };
+		7881409428344C980055FC02 /* post_comments_response.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = post_comments_response.json; sourceTree = "<group>"; };
 		78E942202828194E00C50B2F /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		78E9422228282CD700C50B2F /* Box.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
 		78E9422428282D2A00C50B2F /* PostsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsViewModel.swift; sourceTree = "<group>"; };
@@ -92,7 +103,6 @@
 		78EBC8342826BACF0001F025 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		78EBC8362826BACF0001F025 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78EBC83B2826BAD00001F025 /* MyPostsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyPostsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		78EBC83F2826BAD00001F025 /* MyPostsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPostsTests.swift; sourceTree = "<group>"; };
 		78EBC8452826BAD00001F025 /* MyPostsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyPostsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		78EBC8492826BAD00001F025 /* MyPostsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPostsUITests.swift; sourceTree = "<group>"; };
 		78EBC84B2826BAD00001F025 /* MyPostsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPostsUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -135,6 +145,33 @@
 				784F3D4E282A13D7001F6F0B /* PostCommentCell.swift */,
 			);
 			path = "Post Detail";
+			sourceTree = "<group>";
+		};
+		788140852834449F0055FC02 /* ModelTests */ = {
+			isa = PBXGroup;
+			children = (
+				7881408C2834458E0055FC02 /* PostTests.swift */,
+				7881408E2834487A0055FC02 /* UserTests.swift */,
+				7881409228344BA40055FC02 /* PostCommentTests.swift */,
+			);
+			path = ModelTests;
+			sourceTree = "<group>";
+		};
+		78814086283444C10055FC02 /* ViewModelTests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModelTests;
+			sourceTree = "<group>";
+		};
+		78814087283444E70055FC02 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7881408A2834452E0055FC02 /* posts_response.json */,
+				78814090283449C80055FC02 /* user_response.json */,
+				7881409428344C980055FC02 /* post_comments_response.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		78E9422F2828A07500C50B2F /* Animations */ = {
@@ -195,7 +232,9 @@
 		78EBC83E2826BAD00001F025 /* MyPostsTests */ = {
 			isa = PBXGroup;
 			children = (
-				78EBC83F2826BAD00001F025 /* MyPostsTests.swift */,
+				78814086283444C10055FC02 /* ViewModelTests */,
+				788140852834449F0055FC02 /* ModelTests */,
+				78814087283444E70055FC02 /* Resources */,
 			);
 			path = MyPostsTests;
 			sourceTree = "<group>";
@@ -363,6 +402,7 @@
 					};
 					78EBC83A2826BAD00001F025 = {
 						CreatedOnToolsVersion = 13.3.1;
+						LastSwiftMigration = 1330;
 						TestTargetID = 78EBC8212826BACD0001F025;
 					};
 					78EBC8442826BAD00001F025 = {
@@ -413,6 +453,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7881409528344C980055FC02 /* post_comments_response.json in Resources */,
+				7881408B2834452E0055FC02 /* posts_response.json in Resources */,
+				78814091283449C80055FC02 /* user_response.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,7 +503,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78EBC8402826BAD00001F025 /* MyPostsTests.swift in Sources */,
+				7881409328344BA40055FC02 /* PostCommentTests.swift in Sources */,
+				7881408F2834487A0055FC02 /* UserTests.swift in Sources */,
+				7881408D2834458E0055FC02 /* PostTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -677,15 +722,22 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = PGKL72FDEU;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.rubbermaidlaverde.MyPostsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyPosts.app/MyPosts";
@@ -697,11 +749,17 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = PGKL72FDEU;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.rubbermaidlaverde.MyPostsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
