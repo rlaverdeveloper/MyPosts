@@ -8,7 +8,7 @@
 import Combine
 import UIKit
 
-protocol PostsViewModelProtocol {
+protocol PostsViewModelProtocol: EditPostDelegate {
     
     var filteredPosts: Box<[Post]> { get }
     var animation: Box<AnimationStyle?> { get }
@@ -16,7 +16,7 @@ protocol PostsViewModelProtocol {
     var numberOfRows: Int { get }
     
     func getPosts()
-    func deleteAllPosts()
+    func removeAllPosts()
     func didSelectItem(at indexPath: IndexPath)
     func viewModelForCell(at indexPath: IndexPath) -> PostCellViewModelProtocol
     func filterPosts(by criteria: FilterCriteria?)
@@ -90,7 +90,7 @@ final class PostsViewModel: PostsViewModelProtocol {
         postDetailViewController.value = viewController
     }
     
-    func deleteAllPosts() {
+    func removeAllPosts() {
         
         animation.value = .empty
                 

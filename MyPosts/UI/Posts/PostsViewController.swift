@@ -152,7 +152,7 @@ private extension PostsViewController {
         
         let alertController = UIAlertController(title: nil, message: "Are you sure you want to delete all posts?", preferredStyle: .actionSheet)
         alertController.addAction(UIAlertAction(title: "Delete all", style: .destructive, handler: { [weak self] _ in
-            self?.viewModel.deleteAllPosts()
+            self?.viewModel.removeAllPosts()
         }))
         alertController.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
         self.present(alertController, animated: true)

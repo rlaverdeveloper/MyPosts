@@ -23,6 +23,8 @@
 		78814091283449C80055FC02 /* user_response.json in Resources */ = {isa = PBXBuildFile; fileRef = 78814090283449C80055FC02 /* user_response.json */; };
 		7881409328344BA40055FC02 /* PostCommentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7881409228344BA40055FC02 /* PostCommentTests.swift */; };
 		7881409528344C980055FC02 /* post_comments_response.json in Resources */ = {isa = PBXBuildFile; fileRef = 7881409428344C980055FC02 /* post_comments_response.json */; };
+		7881409728345EE20055FC02 /* PostsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7881409628345EE20055FC02 /* PostsViewModelTests.swift */; };
+		78814099283467A20055FC02 /* MockPostsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78814098283467A20055FC02 /* MockPostsService.swift */; };
 		78E942212828194E00C50B2F /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E942202828194E00C50B2F /* Post.swift */; };
 		78E9422328282CD700C50B2F /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E9422228282CD700C50B2F /* Box.swift */; };
 		78E9422528282D2A00C50B2F /* PostsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E9422428282D2A00C50B2F /* PostsViewModel.swift */; };
@@ -82,6 +84,8 @@
 		78814090283449C80055FC02 /* user_response.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = user_response.json; sourceTree = "<group>"; };
 		7881409228344BA40055FC02 /* PostCommentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCommentTests.swift; sourceTree = "<group>"; };
 		7881409428344C980055FC02 /* post_comments_response.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = post_comments_response.json; sourceTree = "<group>"; };
+		7881409628345EE20055FC02 /* PostsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsViewModelTests.swift; sourceTree = "<group>"; };
+		78814098283467A20055FC02 /* MockPostsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockPostsService.swift; sourceTree = "<group>"; };
 		78E942202828194E00C50B2F /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		78E9422228282CD700C50B2F /* Box.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
 		78E9422428282D2A00C50B2F /* PostsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsViewModel.swift; sourceTree = "<group>"; };
@@ -160,6 +164,7 @@
 		78814086283444C10055FC02 /* ViewModelTests */ = {
 			isa = PBXGroup;
 			children = (
+				7881409628345EE20055FC02 /* PostsViewModelTests.swift */,
 			);
 			path = ViewModelTests;
 			sourceTree = "<group>";
@@ -172,6 +177,14 @@
 				7881409428344C980055FC02 /* post_comments_response.json */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		7881409A2834733F0055FC02 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				78814098283467A20055FC02 /* MockPostsService.swift */,
+			);
+			path = Mocks;
 			sourceTree = "<group>";
 		};
 		78E9422F2828A07500C50B2F /* Animations */ = {
@@ -232,6 +245,7 @@
 		78EBC83E2826BAD00001F025 /* MyPostsTests */ = {
 			isa = PBXGroup;
 			children = (
+				7881409A2834733F0055FC02 /* Mocks */,
 				78814086283444C10055FC02 /* ViewModelTests */,
 				788140852834449F0055FC02 /* ModelTests */,
 				78814087283444E70055FC02 /* Resources */,
@@ -503,8 +517,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7881409728345EE20055FC02 /* PostsViewModelTests.swift in Sources */,
 				7881409328344BA40055FC02 /* PostCommentTests.swift in Sources */,
 				7881408F2834487A0055FC02 /* UserTests.swift in Sources */,
+				78814099283467A20055FC02 /* MockPostsService.swift in Sources */,
 				7881408D2834458E0055FC02 /* PostTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
